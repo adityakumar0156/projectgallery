@@ -27,6 +27,7 @@ body {
     font-size: 200%;
     border-bottom: 2px solid blue;
     margin-left: 10px;
+    margin-top: 35px;
 }
 
 .progImg {
@@ -129,6 +130,7 @@ h3 {
     border-left: 6px solid blue;
     padding: 10px;
     margin-left: 10px;
+    background-color: #deefff;
 }
 
 .fstDesc {
