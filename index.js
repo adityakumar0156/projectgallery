@@ -19,9 +19,13 @@ app.get('/chatapp', (req, res) => {
         // res.sendFile(path.join(__dirname, '/chatapp.html'));
 
 })
+app.get('/writersapp', (req, res) => {
+    res.render('writersapp')
+        // res.sendFile(path.join(__dirname, '/chatapp.html'));
+
+})
 
 
-
-app.listen(process.env.PORT || 8000, () => {
+app.listen(8000, () => {
     console.log("App is listening on port 8000");
 })
