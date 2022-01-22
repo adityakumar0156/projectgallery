@@ -14,7 +14,8 @@ body {
 .project {
     max-width: 420px;
     float: left;
-    margin-left: 2vh
+    margin-left: 2vh;
+    margin-bottom: 6vh;
 }
 
 .projSubName {
@@ -74,7 +75,7 @@ body {
 
 .header {
     background: #497093;
-    height: 9vh;
+    height: 8vh;
     box-shadow: 0px 1px 15px 3px #497093;
     z-index: 12;
     position: relative;
@@ -94,11 +95,11 @@ body {
 } */
 
 .title {
-    font-size: 180%;
+    font-size: 140%;
     position: absolute;
     left: 40%;
-    bottom: 0%;
-    color: white;
+    bottom: 3%;
+    color: #ffffff;
 }
 
 .author {
@@ -137,12 +138,14 @@ h3 {
 }
 
 .footer {
-    width: 100%;
+    idth: 100%;
     text-align: center;
     background-color: #497093;
     color: white;
     /* font-size: 120%; */
     letter-spacing: 1.0px;
+    height: 38px;
+    padding: 6px;
 }
 
 .fstDesc {
