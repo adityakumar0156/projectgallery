@@ -26,6 +26,6 @@ app.get('/writersapp', (req, res) => {
 })
 
 
-app.listen(8000, () => {
+app.listen(process.env.PORT, () => {
     console.log("App is listening on port 8000");
 })
