@@ -13,6 +13,8 @@ body {
 
 .project {
     max-width: 420px;
+    float: left;
+    margin-left: 2vh
 }
 
 .projSubName {
@@ -139,11 +141,15 @@ h3 {
     text-align: center;
     background-color: #497093;
     color: white;
-    font-size: 120%;
+    /* font-size: 120%; */
     letter-spacing: 1.0px;
 }
 
 .fstDesc {
     font-size: 110%;
     margin-left: 10px;
+}
+
+li {
+    font-size: 130%;
 }
